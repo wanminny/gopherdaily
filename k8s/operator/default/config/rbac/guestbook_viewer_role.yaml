@@ -1,0 +1,27 @@
+# permissions for end users to view guestbooks.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  labels:
+    app.kubernetes.io/name: clusterrole
+    app.kubernetes.io/instance: guestbook-viewer-role
+    app.kubernetes.io/component: rbac
+    app.kubernetes.io/created-by: default
+    app.kubernetes.io/part-of: default
+    app.kubernetes.io/managed-by: kustomize
+  name: guestbook-viewer-role
+rules:
+- apiGroups:
+  - zxwbigdata.zxw.org
+  resources:
+  - guestbooks
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - zxwbigdata.zxw.org
+  resources:
+  - guestbooks/status
+  verbs:
+  - get
