@@ -7,4 +7,14 @@ layout:
 - go.kubebuilder.io/v4
 projectName: qps
 repo: zxw.org/qps
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: zxw.org
+  group: webapp
+  kind: ScaleAppAdapter
+  path: zxw.org/qps/api/v1
+  version: v1
 version: "3"

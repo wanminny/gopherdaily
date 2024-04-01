@@ -1,0 +1,27 @@
+# permissions for end users to view scaleappadapters.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  labels:
+    app.kubernetes.io/name: clusterrole
+    app.kubernetes.io/instance: scaleappadapter-viewer-role
+    app.kubernetes.io/component: rbac
+    app.kubernetes.io/created-by: qps
+    app.kubernetes.io/part-of: qps
+    app.kubernetes.io/managed-by: kustomize
+  name: scaleappadapter-viewer-role
+rules:
+- apiGroups:
+  - webapp.zxw.org
+  resources:
+  - scaleappadapters
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - webapp.zxw.org
+  resources:
+  - scaleappadapters/status
+  verbs:
+  - get

@@ -1,0 +1,12 @@
+apiVersion: webapp.zxw.org/v1
+kind: ScaleAppAdapter
+metadata:
+  labels:
+    app.kubernetes.io/name: scaleappadapter
+    app.kubernetes.io/instance: scaleappadapter-sample
+    app.kubernetes.io/part-of: qps
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: qps
+  name: scaleappadapter-sample
+spec:
+  # TODO(user): Add fields here
