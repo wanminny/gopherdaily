@@ -17,4 +17,7 @@ resources:
   kind: ScaleAppAdapter
   path: zxw.org/qps/api/v1
   version: v1
+  webhooks:
+    defaulting: true
+    webhookVersion: v1
 version: "3"

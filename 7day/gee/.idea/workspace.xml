@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31407c59-d5b1-448e-b005-443316ed1857" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gee.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base3/gee/gee.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base3/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base4/gee/context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base4/gee/gee.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base4/gee/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base4/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base4/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../k8s/operator/qps/api/v1/scaleappadapter_webhook.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../k8s/operator/qps/api/v1/webhook_suite_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../k8s/operator/qps/config/certmanager/certificate.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../k8s/operator/qps/config/certmanager/kustomization.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../k8s/operator/qps/config/certmanager/kustomizeconfig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../k8s/operator/qps/config/default/manager_webhook_patch.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../k8s/operator/qps/config/default/webhookcainjection_patch.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../k8s/operator/qps/config/webhook/kustomization.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../k8s/operator/qps/config/webhook/kustomizeconfig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../k8s/operator/qps/config/webhook/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/api/hello/hello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/api/hello/v1/hello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/hack/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/hack/hack-cli.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/hack/hack.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/internal/cmd/cmd.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/internal/consts/consts.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/internal/controller/hello/hello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/internal/controller/hello/hello_new.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/internal/controller/hello/hello_v1_hello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/internal/dao/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/internal/logic/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/internal/model/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/internal/model/do/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/internal/model/entity/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/internal/packed/packed.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/internal/service/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/manifest/deploy/kustomize/base/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/manifest/deploy/kustomize/base/kustomization.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/manifest/deploy/kustomize/base/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/manifest/deploy/kustomize/overlays/develop/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/manifest/deploy/kustomize/overlays/develop/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/manifest/deploy/kustomize/overlays/develop/kustomization.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/manifest/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/manifest/docker/docker.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/manifest/i18n/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/manifest/protobuf/.keep-if-necessary" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/resource/public/html/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/resource/public/plugin/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/resource/public/resource/css/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/resource/public/resource/image/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/resource/public/resource/js/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/resource/template/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../web/gf/demo1/demo/utility/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../k8s/operator/qps/PROJECT" beforeDir="false" afterPath="$PROJECT_DIR$/../../k8s/operator/qps/PROJECT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../k8s/operator/qps/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../k8s/operator/qps/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../k8s/operator/qps/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../../k8s/operator/qps/go.mod" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ektFXuLvarH7pqJAmKvKdwdwfZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/wanmin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/base1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build base4">
+    <configuration name="go build base3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gee" />
+      <working_directory value="$PROJECT_DIR$/base3" />
+      <kind value="PACKAGE" />
+      <package value="base3" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/base3/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build base4" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gee" />
+      <working_directory value="$PROJECT_DIR$/base4" />
+      <kind value="PACKAGE" />
+      <package value="base4" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/base4/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gee" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/base2/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gee" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build base4" />
+        <item itemvalue="Go Build.go build base3" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
