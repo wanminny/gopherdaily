@@ -10,7 +10,7 @@ import (
 var (
 	mu sync.Mutex
 
-	infoLog = log.New(os.Stdout, "\033[34m[info:]\033[0m", log.Ldate|log.Ltime)
+	infoLog = log.New(os.Stdout, "\033[32m[info:]\033[0m", log.Ldate|log.Ltime)
 	errLog  = log.New(os.Stderr, "\033[31m[error:]\033[0m", log.Ldate|log.Ltime)
 
 	loggers = []*log.Logger{infoLog, errLog}
